@@ -1,0 +1,48 @@
+theta: 100.0
+d: 1.0
+camera_loc: 1.0, 0.0, 0.0
+ambient: 0.2, 0.2, 0.2
+Zv: -1.0, 0.0, 0.0
+Vup: 0.0, 1.0, 0.0
+image_x: 1024
+image_y: 1024
+
+# x, y, z, r, g, b
+light: 0.0, 0.0, 3.0, 0.8, 0.0, 0.0
+
+light: 0.0, 0.0, -3.0, 0.0, 0.0, 0.8
+
+mesh: ./smfs/bound-cow.smf
+    translate: 0.0, 0.0, 0.0
+    rotate: 0.0, 90.0, 0.0
+    color: 0.7, 0.7, 0.7
+    kd: 1.0
+    ks: 0.5
+    ka: 0.75
+    n: 30.0
+
+mesh: ./smfs/bound-cow.smf
+    translate: -0.5, 0.5, 0.0
+    rotate: 0.0, 90.0, 0.0
+    color: 0.7, 0.7, 0.7
+    kd: 1.0
+    ks: 0.5
+    ka: 0.75
+    n: 30.0
+
+# radius
+circle: 0.05
+    translate: 0.4, 0.0, 0.0
+    color: 0.5, 0.7, 0.2
+    kd: 0.2
+    ks: 1.0
+    ka: 0.1
+    n: 5.0
+
+circle: 0.3
+    translate: 0.0, -1.0, 0.0
+    color: 0.7, 0.7, 0.7
+    kd: 1.0
+    ks: 1.0
+    ka: 1.0
+    n: 10.0

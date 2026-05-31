@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="index.css">
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		<div class="topnav" id="myTopnav">
+			<a href="" class="active">Home</a>
+			<a href="/~jcp353@drexel.edu/pepper_cv.pdf">CV Download</a>
+			<a href="https://www.linkedin.com/in/joel-pepper-57669a150/">LinkedIn</a>
+			<a href="https://orcid.org/0000-0002-1601-8729">ORCID</a>
+			<a href="https://scholar.google.com/citations?hl=en&user=Yzah-pkAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+			<a href="https://github.com/DrJPepper">Github</a>
+			<a href="/~jcp353@drexel.edu/CS636/CS636.html">Advanced Rendering Course Images</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<p align="center">
+		<img width="20%" src="/~jcp353@drexel.edu/webpage_photo.jpg" alt="Headshot"><br/><br/>
+		<big><b>PhD Student in Computer Science at Drexel University</b></big><br/><br/>
+		<a href="https://drexel.edu/cci/news/2021/December/joel-pepper-wins-national-digital-library-conference-best-student-paper-award/">Article from the college</a> on my <em>Best Student Paper</em> award at <a href="https://2021.jcdl.org/about/awardwinners/">JCDL 2021</a><br/><br/>
+		Current Curriculum Vitae Below (<a href="/~jcp353@drexel.edu/pepper_cv.pdf">or download a PDF copy with clickable links</a>)<br/>
+		<i class="fa fa-angle-double-down" style="font-size: 2.5em;"></i>
+		</p>
+		<div style="text-align: center">
+		<canvas id="canvas1">
+		Your browser does not support the canvas tag.
+		</canvas></br>
+		<canvas id="canvas2">
+		Your browser does not support the canvas tag.
+		</canvas></br>
+		<canvas id="canvas3">
+		Your browser does not support the canvas tag.
+		</canvas></br>
+		<canvas id="canvas4">
+		Your browser does not support the canvas tag.
+		</canvas></br>
+		</div>
+		<!--<iframe
+			src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.cs.drexel.edu/~jcp353@drexel.edu/pepper_cv.pdf"
+			frameBorder="0"
+			scrolling="auto"
+			height="100%"
+			width="90%"
+			></iframe>
+		</p>-->
+
+
+		<script type="module"> import pdfjsDist from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/+esm' </script>
+		<script src="index.js"></script>
+	</body>
+</html>

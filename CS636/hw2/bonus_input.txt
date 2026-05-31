@@ -1,0 +1,18 @@
+theta: 100.0
+d: 500.0
+camera_loc: 500.0, 0.0, 0.0
+ambient: 0.2, 0.2, 0.2
+Zv: -1.0, 0.0, 0.0
+Vup: 0.0, 1.0, 0.0
+image_x: 1024
+image_y: 1024
+
+# x, y, z, r, g, b
+light: 500.0, 0.0, 0.0, 0.8, 0.8, 0.8
+
+mesh: ./my_thing.smf
+    color: 0.7, 0.7, 0.7
+    kd: 1.0
+    ks: 0.5
+    ka: 0.75
+    n: 30.0

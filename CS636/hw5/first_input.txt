@@ -1,0 +1,115 @@
+theta: 90.0
+d: 4.0
+camera_loc: 4.0, 0.0, 0.0
+ambient: 0.1, 0.1, 0.1
+Zv: -1.0, 0.0, 0.0
+Vup: 0.0, 1.1, 0.0
+image_x: 1024
+image_y: 1024
+
+# x, y, z, r, g, b
+light: 4.0, 4.0, 0.0, 0.4, 0.4, 0.4
+light: 4.0, 4.0, 4.0, 0.0, 0.0, 0.6
+light: 4.0, 4.0, -4.0, 0.0, 0.4, 0.0
+
+mesh: ./floor.smf
+    translate: -10.0, -12.0, 0.0
+    rotate: 0.0, 90.0, 0.0
+    color: 0.9, 0.9, 0.9
+    kd: 1.0
+    ks: 0.9
+    ka: 0.3
+    n: 40.0
+
+mesh: ./smfs/bound-cow.smf
+    translate: 0.0, 0.0, 2.0
+    rotate: 90.0, 90.0, 90.0
+    color: 0.4, 0.4, 0.9
+    kd: 0.9
+    ks: 0.3
+    ka: 0.5
+    n: 10.0
+
+mesh: ./smfs/teapot.smf
+    translate: -1.0, 0.0, -2.0
+    rotate: 90.0, 90.0, 90.0
+    color: 0.4, 1.0, 0.8
+    kd: 0.5
+    ks: 1.0
+    ka: 0.75
+    n: 10.0
+
+mesh: ./smfs/frog.smf
+    translate: 0.0, 0.0, -2.0
+    rotate: 90.0, 90.0, 90.0
+    color: 0.8, 0.4, 1.0
+    kd: 1.0
+    ks: 0.5
+    ka: 0.75
+    n: 30.0
+
+mesh: ./smfs/bound-bunny_200.smf
+    translate: 0.0, 1.0, 0.0
+    color: 1.0, 1.0, 0.1
+    ka: 0.5
+    kd: 1.0
+    ks: 1.0
+    n: 10.0
+
+# radius
+circle: 0.4
+    translate: 0.0, 1.0, 1.0
+    color: 0.75, 0.75, 1.0
+    kd: 0.3
+    ks: 1.0
+    ka: 0.3
+    n: 7.0
+
+circle: 0.5
+    translate: 0.0, 3.0, 3.0
+    color: 0.7, 0.7, 0.7
+    kd: 1.0
+    ks: 1.0
+    ka: 1.0
+    n: 10.0
+
+circle: 0.6
+    translate: 0.0, 3.0, 0.0
+    color: 0.7, 0.7, 0.7
+    kd: 1.0
+    ks: 1.0
+    ka: 1.0
+    n: 10.0
+
+circle: 0.7
+    translate: 0.0, 3.0, -3.0
+    color: 0.7, 0.7, 0.7
+    kd: 1.0
+    ks: 1.0
+    ka: 1.0
+    n: 10.0
+
+circle: 0.5
+    translate: 0.0, -3.0, 3.0
+    color: 0.9, 0.1, 0.7
+    kd: 1.0
+    ks: 1.0
+    ka: 1.0
+    n: 10.0
+
+circle: 0.6
+    translate: 0.0, -3.0, 0.0
+    color: 0.7, 0.9, 0.7
+    kd: 1.0
+    ks: 1.0
+    ka: 1.0
+    n: 10.0
+
+circle: 0.7
+    translate: 0.0, -3.0, -3.0
+    color: 0.7, 0.7, 0.9
+    kd: 1.0
+    ks: 1.0
+    ka: 1.0
+    n: 10.0
+
