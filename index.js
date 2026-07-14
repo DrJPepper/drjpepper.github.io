@@ -15,7 +15,7 @@ $(document).ready(function() {
 	pdfjsLib.getDocument('pepper_cv.pdf')
 		.promise
 		.then(pdf => {
-			for (let i=1; i<5; i++) {
+			for (let i=1; i<6; i++) {
 				pdf.getPage(i).then(page => {
 					let outputScale = window.devicePixelRatio || 1;
 					let transform = outputScale !== 1 ? [outputScale, 0, 0, outputScale, 0, 0] : null;
